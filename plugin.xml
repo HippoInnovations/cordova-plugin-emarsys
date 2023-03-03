@@ -15,7 +15,7 @@
 <!-- android -->
 <platform name="android">
 <config-file target="res/xml/config.xml" parent="/*">
-<framework src="com.emarsys:emarsys-sdk:3.5.0" />
+<framework src="com.emarsys:emarsys-sdk:3.4.0" />
 <feature name="HelloPlugin">
 <param name="android-package" value="org.camden.plugin.HelloPlugin" />
 </feature>

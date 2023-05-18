@@ -35,7 +35,7 @@ public class EmarsysPlugin extends CordovaPlugin {
         //String value  = arg_object.getString("value");
         //Map<String, String> map = new HashMap<String, String>();
        // map.put(key,value);
-        Emarsys.setContact(contactValue);     
+        Emarsys.setContact(contactFieldID,contactValue);     
         //EmarsysApplication.onCreate(applicationCode,merchantID)
         return true;
 

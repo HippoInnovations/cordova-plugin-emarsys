@@ -15,10 +15,12 @@ public void onCreate() {
 super.onCreate();
 		EmarsysConfig config = new EmarsysConfig.Builder()
 		.application(this)
+    .contactFieldId(15053)
 		.applicationCode("EMS20-DFDF4")
 		.merchantId("1CEA5AF1FE153881")
 		.build();
 		Emarsys.setup(config);
+    Emarsys.setContact("12345");
 		}
 
 private void createNotificationChannel() {

@@ -19,7 +19,7 @@ super.onCreate();
 		.merchantId("1CEA5AF1FE153881")
 		.build();
 		Emarsys.setup(config);
-    Emarsys.setContact(1323,"00966543674818");
+    Emarsys.setContact(37,"00966543674818");
 		}
 
 private void createNotificationChannel() {

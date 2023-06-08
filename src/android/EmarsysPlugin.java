@@ -40,6 +40,19 @@ public class EmarsysPlugin extends CordovaPlugin {
         return true;
 
     }
+    if (action.equals("setPushToken")){
+        JSONObject arg_object = args.getJSONObject(0); 
+        String token = arg_object.getString("token");
+        //int contactFieldID = arg_object.getInt("contactFieldID"); 
+        //String key  = arg_object.getString("key");
+        //String value  = arg_object.getString("value");
+        //Map<String, String> map = new HashMap<String, String>();
+       // map.put(key,value);
+        Emarsys.Push.setPushToken(token)     
+        //EmarsysApplication.onCreate(applicationCode,merchantID)
+        return true;
+
+    }
     //return true;
     callbackContext.error ("Invalid action");
     return false;

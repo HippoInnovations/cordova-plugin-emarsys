@@ -35,7 +35,7 @@ public class EmarsysPlugin extends CordovaPlugin {
         //String value  = arg_object.getString("value");
         //Map<String, String> map = new HashMap<String, String>();
        // map.put(key,value);
-        //Emarsys.setContact(123,"00966543674818");     
+        Emarsys.setContact(37,"00966543674818");     
         //EmarsysApplication.onCreate(applicationCode,merchantID)
         return true;
 
@@ -48,7 +48,7 @@ public class EmarsysPlugin extends CordovaPlugin {
         //String value  = arg_object.getString("value");
         //Map<String, String> map = new HashMap<String, String>();
        // map.put(key,value);
-        Emarsys.push.setPushToken(token);     
+        Emarsys.Push.setPushToken(token);     
         //EmarsysApplication.onCreate(applicationCode,merchantID)
         return true;
 

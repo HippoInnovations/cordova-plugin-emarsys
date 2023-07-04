@@ -48,7 +48,7 @@ public class EmarsysPlugin extends CordovaPlugin {
         //String value  = arg_object.getString("value");
         //Map<String, String> map = new HashMap<String, String>();
        // map.put(key,value);
-        Emarsys.Push.setPushToken(token);     
+        Emarsys.getPush().setPushToken(token); 
         //EmarsysApplication.onCreate(applicationCode,merchantID)
         return true;
 
